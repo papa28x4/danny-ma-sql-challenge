@@ -124,7 +124,7 @@
 
     SELECT * FROM successful_deliveries;
 
-   ![Sneak Preview](https://i.ibb.co/X2RS0qP/successful-deliveries.png)
+   ![Successful Deliveries](https://i.ibb.co/X2RS0qP/successful-deliveries.png)
 
 ---
 
