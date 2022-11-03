@@ -26,7 +26,7 @@ SET search_path = pizza_runner;
     USING (region_id)
     GROUP BY region_id, region_name
     ORDER BY region_id;
-````sql
+````
 | region_id | region_name | count |
 | --------- | ----------- | ----- |
 | 1         | Australia   | 5     |
