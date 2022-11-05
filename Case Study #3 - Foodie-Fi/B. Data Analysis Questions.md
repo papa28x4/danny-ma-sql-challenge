@@ -1,6 +1,6 @@
 **Schema (PostgreSQL v13)**
 
-    # 🥑 Case Study #3 - Foodie-Fi
+# 🥑 Case Study #3 - Foodie-Fi
 
 ## 🎞 Solution - B. Data Analysis Questions
 
