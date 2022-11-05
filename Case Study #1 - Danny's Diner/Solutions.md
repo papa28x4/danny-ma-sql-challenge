@@ -38,14 +38,14 @@
 ### 3. What was the first item from the menu purchased by each customer?
 ````sql
     WITH ranking as (
-        select *, 
-        dense_rank() over(partition by customer_id order by order_date) as rank
-        from sales
-        join menu
-        using (product_id)
+        SELECT *, 
+        DENSE_RANK() OVER(PARTITION BY customer_id ORDER BY order_date) as RANK
+        FROM sales
+        JOIN menu
+        USING (product_id)
     )
      SELECT customer_id, product_name, order_date
-     from ranking 
+     FROM ranking 
      WHERE rank = 1
      GROUP BY customer_id, product_name, order_date;
 ````
@@ -62,7 +62,7 @@
     SELECT product_name, count(product_id) AS product_count
     FROM sales
     JOIN menu
-    using (product_id)
+    USING (product_id)
     GROUP BY product_name
     ORDER BY product_count DESC
     LIMIT 1;
@@ -98,17 +98,17 @@
 ### 6. Which item was purchased first by the customer after they became a member?
 ````sql
     with ranking as (
-        select *, 
-            dense_rank() over(partition by customer_id order by order_date)
-        from sales s
-        join members m
-        using (customer_id)
-        where s.order_date >= m.join_date
+        SELECT *, 
+            DENSE_RANK() OVER(partition by customer_id order by order_date)
+        FROM sales s
+        JOIN members m
+        USING (customer_id)
+        WHERE s.order_date >= m.join_date
     )
-    select customer_id, order_date, product_name from ranking
-    join menu 
-    using (product_id)
-    where dense_rank = 1;
+    SELECT customer_id, order_date, product_name from ranking
+    JOIN menu 
+    USING (product_id)
+    WHERE dense_rank = 1;
 ````
 | customer_id | order_date               | product_name |
 | ----------- | ------------------------ | ------------ |
@@ -119,18 +119,18 @@
 ### 7. Which item was purchased just before the customer became a member?
 ````sql
     with ranking as (
-        select *,
-            dense_rank() over(partition by customer_id order by order_date desc)
-        from sales s
-        join members m
-        using (customer_id)
-        where s.order_date < m.join_date
+        SELECT *,
+            DENSE_RANK() OVER(partition by customer_id order by order_date desc)
+        FROM sales s
+        JOIN members m
+        USING (customer_id)
+        WHERE s.order_date < m.join_date
     )
-    select customer_id, order_date, product_name 
-    from ranking 
-    join menu
-    using (product_id)
-    where dense_rank = 1;
+    SELECT customer_id, order_date, product_name 
+    FROM ranking 
+    JOIN menu
+    USING (product_id)
+    WHERE dense_rank = 1;
 ````
 | customer_id | order_date               | product_name |
 | ----------- | ------------------------ | ------------ |
@@ -141,14 +141,14 @@
 ---
 ### 8. What is the total items and amount spent for each member before they became a member?
 ````sql
-    select customer_id, count(distinct(product_id)) as total_items, sum(price) as amount_spent	
-    from sales s
-    join members m
-    using (customer_id)
-    join menu
-    using (product_id)
-    where s.order_date < m.join_date
-    group by customer_id;
+    SELECT customer_id, COUNT(DISTINCT(product_id)) as total_items, SUM(price) as amount_spent	
+    FROM sales s
+    JOIN members m
+    USING (customer_id)
+    JOIN menu
+    USING (product_id)
+    WHERE s.order_date < m.join_date
+    GROUP BY customer_id;
 ````
 | customer_id | total_items | amount_spent |
 | ----------- | ----------- | ------------ |
@@ -156,7 +156,7 @@
 | B           | 2           | 40           |
 
 ---
-**Query #11**
+### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier — how many points would each customer have?
 ````sql
     WITH customer_points AS (
         SELECT *, 
@@ -181,7 +181,7 @@
 | C           | 360 |
 
 ---
-**Query #12**
+### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi — how many points do customer A and B have at the end of January?
 ````sql
     WITH points_calc AS (
          SELECT *,
