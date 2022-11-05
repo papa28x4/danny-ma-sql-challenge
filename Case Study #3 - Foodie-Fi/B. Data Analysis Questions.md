@@ -1,9 +1,8 @@
-**Schema (PostgreSQL v13)**
-
 # 🥑 Case Study #3 - Foodie-Fi
 
 ## 🎞 Solution - B. Data Analysis Questions
 
+**Schema (PostgreSQL v13)**
     SET search_path = foodie_fi;
     
 ---
