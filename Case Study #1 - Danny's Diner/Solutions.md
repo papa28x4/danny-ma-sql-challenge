@@ -39,7 +39,7 @@
 ````sql
     WITH ranking as (
         SELECT *, 
-        DENSE_RANK() OVER(PARTITION BY customer_id ORDER BY order_date) as RANK
+          DENSE_RANK() OVER(PARTITION BY customer_id ORDER BY order_date) as RANK
         FROM sales
         JOIN menu
         USING (product_id)
@@ -141,7 +141,8 @@
 ---
 ### 8. What is the total items and amount spent for each member before they became a member?
 ````sql
-    SELECT customer_id, COUNT(DISTINCT(product_id)) as total_items, SUM(price) as amount_spent	
+    SELECT customer_id, COUNT(DISTINCT(product_id)) as total_items, 
+     SUM(price) as amount_spent	
     FROM sales s
     JOIN members m
     USING (customer_id)
