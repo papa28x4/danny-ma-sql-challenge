@@ -3,6 +3,7 @@
 ## 🎞 Solution - B. Data Analysis Questions
 
 **Schema (PostgreSQL v13)**
+
     SET search_path = foodie_fi;
     
 ---
