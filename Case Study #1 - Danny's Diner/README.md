@@ -14,7 +14,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 ## Case Study Questions
 
-<details>
+
 <summary>
 Click here to expand!
 </summary>
