@@ -121,7 +121,7 @@ He has prepared for us an entity relationship diagram of his database design but
 
 ### A. Pizza Metrics
 
-View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Update%20Data%20Cleaning%20and%20Transformation.md)
+View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
 
 1. How many pizzas were ordered?
 2. How many unique customer orders were made?
