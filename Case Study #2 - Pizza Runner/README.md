@@ -7,7 +7,7 @@
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
 - Solution
-  - [Data Cleaning and Transformation]([https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/A.%20Pizza%20Metrics.md](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Update%20Data%20Cleaning%20and%20Transformation.md)
+  - [Data Cleaning and Transformation](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Update%20Data%20Cleaning%20and%20Transformation.md)
   - [A. Pizza Metrics](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
   - [B. Runner and Customer Experience]([https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/B.%20Runner%20and%20Customer%20Experience.md])
   - [C. Ingredient Optimisation]([https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/C.%20Ingredient%20Optimisation.md])
