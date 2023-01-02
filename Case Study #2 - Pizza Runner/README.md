@@ -154,10 +154,10 @@ View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/
 2. What was the most commonly added extra?
 3. What was the most common exclusion?
 4. Generate an order item for each record in the customers_orders table in the format of one of the following:
-- Meat Lovers
-- Meat Lovers - Exclude Beef
-- Meat Lovers - Extra Bacon
-- Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
+  - Meat Lovers
+  - Meat Lovers - Exclude Beef
+  - Meat Lovers - Extra Bacon
+  - Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
 5. Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
 6. For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
 7. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
@@ -170,16 +170,16 @@ View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/
 - Add cheese is $1 extra
 3. The Pizza Runner team now wants to add an additional ratings system that allows customers to rate their runner, how would you design an additional table for this new dataset generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.
 4. Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?
-- customer_id
-- order_id
-- runner_id
-- rating
-- order_time
-- pickup_time
-- Time between order and pickup
-- Delivery duration
-- Average speed
-- Total number of pizzas
+  - customer_id
+  - order_id
+  - runner_id
+  - rating
+  - order_time
+  - pickup_time
+  - Time between order and pickup
+  - Delivery duration
+  - Average speed
+  - Total number of pizzas
 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
 
 ### E. Bonus Questions
