@@ -7,10 +7,9 @@
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
 - Solution
-  - [A. Customer Nodes Exploration](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/A.%20Customer%20Nodes%20Exploration.md)
-  - [B. Customer Transactions](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/B.%20Customer%20Transactions.md)
-  - [Complete SQL Syntax](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/SQL%20Syntax/Complete%20SQL%20solution.sql)
-
+  - [A. Customer Nodes Exploration](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/A.%20Customer%20Nodes%20Exploration.md)
+  - [B. Customer Transactions](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/B.%20Customer%20Transactions.md)
+ 
 ***
 
 ## Background
@@ -34,27 +33,56 @@ This case study is all about calculating metrics, growth and helping the busines
 
 This regions table contains the region_id and their respective region_name values.
 
-<img width="176" alt="image" src="https://user-images.githubusercontent.com/81607668/130551759-28cb434f-5cae-4832-a35f-0e2ce14c8811.png">
+| region_id | region_name |
+| --------- | ----------- |
+| 1         | Australia   |
+| 2         | America     |
+| 3         | Africa      |
+| 4         | Asia        |
+| 5         | Europe      |
+
 
 **Table 2: Customer Nodes**
 
 Customers are randomly distributed across the nodes according to their region. This random distribution changes frequently to reduce the risk of hackers getting into Data Bank’s system and stealing customer’s money and data!
 
-<img width="412" alt="image" src="https://user-images.githubusercontent.com/81607668/130551806-90a22446-4133-45b5-927c-b5dd918f1fa5.png">
+| customer_id | region_id | node_id | start_date               | end_date                 |
+| ----------- | --------- | ------- | ------------------------ | ------------------------ |
+| 1           | 3         | 4       | 2020-01-02T00:00:00.000Z | 2020-01-03T00:00:00.000Z |
+| 2           | 3         | 5       | 2020-01-03T00:00:00.000Z | 2020-01-17T00:00:00.000Z |
+| 3           | 5         | 4       | 2020-01-27T00:00:00.000Z | 2020-02-18T00:00:00.000Z |
+| 4           | 5         | 4       | 2020-01-07T00:00:00.000Z | 2020-01-19T00:00:00.000Z |
+| 5           | 3         | 3       | 2020-01-15T00:00:00.000Z | 2020-01-23T00:00:00.000Z |
+| 6           | 1         | 1       | 2020-01-11T00:00:00.000Z | 2020-02-06T00:00:00.000Z |
+| 7           | 2         | 5       | 2020-01-20T00:00:00.000Z | 2020-02-04T00:00:00.000Z |
+| 8           | 1         | 2       | 2020-01-15T00:00:00.000Z | 2020-01-28T00:00:00.000Z |
+| 9           | 4         | 5       | 2020-01-21T00:00:00.000Z | 2020-01-25T00:00:00.000Z |
+| 10          | 3         | 4       | 2020-01-13T00:00:00.000Z | 2020-01-14T00:00:00.000Z |
+
 
 **Table 3: Customer Transactions**
 
 This table stores all customer deposits, withdrawals and purchases made using their Data Bank debit card.
 
-<img width="343" alt="image" src="https://user-images.githubusercontent.com/81607668/130551879-2d6dfc1f-bb74-4ef0-aed6-42c831281760.png">
-
+| customer_id | txn_date                 | txn_type | txn_amount |
+| ----------- | ------------------------ | -------- | ---------- |
+| 429         | 2020-01-21T00:00:00.000Z | deposit  | 82         |
+| 155         | 2020-01-10T00:00:00.000Z | deposit  | 712        |
+| 398         | 2020-01-01T00:00:00.000Z | deposit  | 196        |
+| 255         | 2020-01-14T00:00:00.000Z | deposit  | 563        |
+| 185         | 2020-01-29T00:00:00.000Z | deposit  | 626        |
+| 309         | 2020-01-13T00:00:00.000Z | deposit  | 995        |
+| 312         | 2020-01-20T00:00:00.000Z | deposit  | 485        |
+| 376         | 2020-01-03T00:00:00.000Z | deposit  | 706        |
+| 188         | 2020-01-13T00:00:00.000Z | deposit  | 601        |
+| 138         | 2020-01-11T00:00:00.000Z | deposit  | 520        |
 ***
 
 ## Case Study Questions
 
 ### A. Customer Nodes Exploration
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/A.%20Customer%20Nodes%20Exploration.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/A.%20Customer%20Nodes%20Exploration.md).
 
 1. How many unique nodes are there on the Data Bank system?
 2. What is the number of nodes per region?
@@ -64,7 +92,7 @@ View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob
 
 ### B. Customer Transactions
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/B.%20Customer%20Transactions.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/B.%20Customer%20Transactions.md).
   
 1. What is the unique count and total amount for each transaction type?
 2. What is the average total historical deposit counts and amounts for all customers?
