@@ -29,7 +29,7 @@ You can inspect the entity relationship diagram and example data below.
 
 ![image](https://user-images.githubusercontent.com/81607668/127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8.png)
 
-## Table 1: Sales
+### Table 1: Sales
 The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
 
 | customer_id | order_date               | product_id |
@@ -50,7 +50,7 @@ The sales table captures all customer_id level purchases with an corresponding o
 | C           | 2021-01-01T00:00:00.000Z | 3          |
 | C           | 2021-01-07T00:00:00.000Z | 3          |
 
-## Table 2: Menu
+### Table 2: Menu
 The menu table maps the product_id to the actual product_name and price of each menu item.
 
 
@@ -60,7 +60,7 @@ The menu table maps the product_id to the actual product_name and price of each 
 | 2          | curry        | 15    |
 | 3          | ramen        | 12    |
 
-## Table 3: Members
+### Table 3: Members
 The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
 
 | customer_id | join_date                |
