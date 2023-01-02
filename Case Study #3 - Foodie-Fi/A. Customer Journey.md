@@ -3,6 +3,7 @@
 ## 🎞 Solution - A. Customer Journey
 
 **WIP**
+
 Based off the 8 sample customers provided in the sample subscriptions table below, write a brief description about each customer’s onboarding journey.
 
 <img width="261" alt="Screenshot 2021-08-17 at 11 36 10 PM" src="https://user-images.githubusercontent.com/81607668/129756709-75919d79-e1cd-4187-a129-bdf90a65e196.png">
