@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 - [Introduction](#Introduction)
-- [Available Data](#Available Data)
+- [Available Data](#Available-Data)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
 - Solution
