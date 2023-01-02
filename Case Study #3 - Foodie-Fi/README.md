@@ -4,11 +4,12 @@
 
 ## 📚 Table of Contents
 - [Background](#Background)
+- [Available Data](#available-data)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
 - Solution
-  - [A. Customer Journey](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/A.%20Customer%20Journey.md)
-  - [B. Data Analysis Questions](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/B.%20Data%20Analysis%20Questions.md)
+  - [A. Customer Journey](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/A.%20Customer%20Journey.md)
+  - [B. Data Analysis Questions](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/B.%20Data%20Analysis%20Questions.md)
   - [C. Challenge Payment Question]
   - [D. Outside The Box Questions]
 
@@ -60,13 +61,13 @@ When customers churn — they will keep their access until the end of their curr
 
 ### A. Customer Journey
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/A.%20Customer%20Journey.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/A.%20Customer%20Journey.md).
   
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
 
 ### B. Data Analysis Questions
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/B.%20Data%20Analysis%20Questions.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/B.%20Data%20Analysis%20Questions.md).
   
 1. How many customers has Foodie-Fi ever had?
 2. What is the monthly distribution of trial plan start_date values for our dataset - use the start of the month as the group by value
