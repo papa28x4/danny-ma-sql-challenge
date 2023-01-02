@@ -49,7 +49,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 | 3         | 2021-01-08T00:00:00.000Z |
 | 4         | 2021-01-15T00:00:00.000Z |
 
----
+
 ## Table 2: customer_orders
 
 | order_id | customer_id | pizza_id | exclusions | extras | order_time               |
@@ -69,7 +69,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 | 10       | 104         | 1        | null       | null   | 2020-01-11T18:34:49.000Z |
 | 10       | 104         | 1        | 2, 6       | 1, 4   | 2020-01-11T18:34:49.000Z |
 
----
+
 ## Table 3: runner_orders
 
 
@@ -86,7 +86,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 | 9        | 2         | null                | null     | null       | Customer Cancellation   |
 | 10       | 1         | 2020-01-11 18:50:20 | 10km     | 10minutes  | null                    |
 
----
+
 ## Table 4: pizza_names
 
     
@@ -95,7 +95,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 | 1        | Meatlovers |
 | 2        | Vegetarian |
 
----
+
 ## Table 5: pizza_recipes
 
 
@@ -104,7 +104,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 | 1        | 1, 2, 3, 4, 5, 6, 8, 10 |
 | 2        | 4, 6, 7, 9, 11, 12      |
 
----
+
 ## Table 6: pizza_toppings
 
 | topping_id | topping_name |
