@@ -118,7 +118,9 @@ He has prepared for us an entity relationship diagram of his database design but
 | 12         | Tomato Sauce |
 
 ## Case Study Questions
+Before you start writing your SQL queries however - you might want to investigate the data, you may want to do something with some of those null values and data types in the customer_orders and runner_orders tables!
 
+Data Cleaning [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Update%20Data%20Cleaning%20and%20Transformation.md)
 ### A. Pizza Metrics
 
 View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
