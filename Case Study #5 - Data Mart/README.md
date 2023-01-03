@@ -5,7 +5,7 @@
 ## 📚 Table of Contents
 - [Background](#background)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Case Study Solution](#case-study-solution)
+- [Case Study Question](#case-study-question)
   - [A. Data Cleansing Steps](#a-data-cleansing-steps)
   - [B. Data Exploration](#b-data-exploration)
   - [C. Before & After Analysis](#c-before--after-analysis)
@@ -49,7 +49,7 @@ Each record in the dataset is related to a specific aggregated slice of the unde
 
 ***
 
-## Case Study Solution
+## Case Study Question
 
 ### A. Data Cleansing Steps
 
