@@ -53,7 +53,7 @@ For this case study there is a total of 5 datasets which you will need to combin
 Using the following DDL schema details to create an ERD for all the Clique Bait datasets.
 ### B. Digital Analysis
 
-View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/edit/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Digital%20Analysis.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Digital%20Analysis.md).
 
 1. How many users are there?
 2. How many cookies does each user have on average?
