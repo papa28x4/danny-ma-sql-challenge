@@ -45,6 +45,7 @@ For this case study there is a total of 5 datasets which you will need to combin
 ***
 
 ## Case Study Questions
+<img width="792" alt="image" src="https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/danny_6_jpg.PNG">
 
 ### A. Entity Relationship Diagram 
 Using the following DDL schema details to create an ERD for all the Clique Bait datasets.
