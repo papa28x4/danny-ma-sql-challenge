@@ -9,7 +9,7 @@
   - [A. Entity Relationship Diagram](#entity-relationship-diagram) 
   - [B. Digital Analysis](#digital-analysis)
   - [C. Product Funnel Analysis](#product-funnel-analysis)
-  - [D. Campaigns Analysis](#campaign-analysis)
+  - [D. Campaigns Analysis](#campaigns-analysis)
 
 ***
 
@@ -18,12 +18,9 @@ Clique Bait is not like your regular online seafood store - the founder and CEO 
 
 In this case study - you are required to support Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
 
-#Available Data
+## Available Data
 For this case study there is a total of 5 datasets which you will need to combine to solve all of the questions.
 
-## Entity Relationship Diagram
-
-<img width="825" alt="image" src="https://user-images.githubusercontent.com/81607668/134619326-f560a7b0-23b2-42ba-964b-95b3c8d55c76.png">
 
 **users table**
 
@@ -51,6 +48,8 @@ For this case study there is a total of 5 datasets which you will need to combin
 
 ### A. Enterprise Relationship Diagram 
 Using the following DDL schema details to create an ERD for all the Clique Bait datasets.
+<img width="825" alt="image" src="https://user-images.githubusercontent.com/81607668/134619326-f560a7b0-23b2-42ba-964b-95b3c8d55c76.png">
+
 ### B. Digital Analysis
 
 View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Digital%20Analysis.md).
