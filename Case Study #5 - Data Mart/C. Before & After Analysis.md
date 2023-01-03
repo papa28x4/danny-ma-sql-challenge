@@ -1,5 +1,7 @@
 **Schema (PostgreSQL v13)**
 
+## 🛍 Solution - C. Before & After Analysis
+
     SET search_path = data_mart;
 
 ---
