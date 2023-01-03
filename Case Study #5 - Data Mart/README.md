@@ -33,7 +33,8 @@ For this case study there is only a single table: data_mart.weekly_sales
 
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/81607668/131438278-45e6a4e8-7cf5-468a-937b-2c306a792782.png">
 
-Additional Information
+**Additional Information**
+
 The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
 
 Data Mart has international operations using a multi-region strategy
