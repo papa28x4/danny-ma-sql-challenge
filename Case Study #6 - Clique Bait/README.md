@@ -47,9 +47,11 @@ For this case study there is a total of 5 datasets which you will need to combin
 
 ***
 
-## Case Study Question
+## Case Study Questions
 
-### A. Digital Analysis
+### A. Enterprise Relationship Diagram 
+Using the following DDL schema details to create an ERD for all the Clique Bait datasets.
+### B. Digital Analysis
 
 View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/edit/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Digital%20Analysis.md).
 
@@ -65,7 +67,7 @@ View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/edit/
 
 ***
 
-### B. Product Funnel Analysis
+### C. Product Funnel Analysis
 
 View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/C.%20Product%20Funnel%20Analysis.md).
 
@@ -88,7 +90,7 @@ Use your 2 new output tables - answer the following questions:
 
 ***
 
-### C. Campaigns Analysis
+### D. Campaigns Analysis
 
 View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/D.%20Campaigns%20Analysis.md).
 
