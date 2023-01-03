@@ -10,7 +10,7 @@
   - [B. Data Exploration](#b-data-exploration)
   - [C. Before & After Analysis](#c-before--after-analysis)
   - [D. Bonus Question](#d-bonus-question)
-  - [Complete SQL Syntax]
+  
 
 ***
 
@@ -33,15 +33,14 @@ For this case study there is only a single table: data_mart.weekly_sales
 
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/81607668/131438278-45e6a4e8-7cf5-468a-937b-2c306a792782.png">
 
-Here are some further details about the dataset:
+Additional Information
+The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
 
-1. Data Mart has international operations using a multi-`region` strategy.
-2. Data Mart has both, a retail and online `platform` in the form of a Shopify store front to serve their customers.
-3. Customer `segment` and `customer_type` data relates to personal age and demographics information that is shared with Data Mart.
-4. `transactions` is the count of unique purchases made through Data Mart and `sales` is the actual dollar amount of purchases.
-
+Data Mart has international operations using a multi-region strategy
+Data Mart has both, a retail and online platform in the form of a Shopify store front to serve their customers
+Customer segment and customer_type data relates to personal age and demographics information that is shared with Data Mart
+transactions is the count of unique purchases made through Data Mart and sales is the actual dollar amount of purchases
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
-
 10 random rows are shown in the table output below from `data_mart.weekly_sales`.
 
 <img width="649" alt="image" src="https://user-images.githubusercontent.com/81607668/131438417-1e21efa3-9924-490f-9bff-3c28cce41a37.png">
