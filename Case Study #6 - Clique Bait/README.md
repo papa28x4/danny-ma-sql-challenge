@@ -3,19 +3,23 @@
 <img src="https://user-images.githubusercontent.com/81607668/134615258-d1108e0d-0816-4cd7-a972-d45580f82352.png" alt="Image" width="500" height="520">
 
 ## 📚 Table of Contents
-- [Business Task](#business-task)
-- [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Case Study Solution](#case-study-solution)
-  - [A. Digital Analysis](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/A.%20Digital%20Analysis.md)
-  - [B. Product Funnel Analysis](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Product%20Funnel%20Analysis.md)
-  - [C. Campaigns Analysis](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/C.%20Campaigns%20Analysis.md)
+- [Background](#background)
+- [Available Data](#available-data)
+- [Case Study Questions](#case-study-questions)
+  - [A. Entity Relationship Diagram](#entity-relationship-diagram) 
+  - [B. Digital Analysis](#digital-analysis)
+  - [C. Product Funnel Analysis](#product-funnel-analysis)
+  - [D. Campaigns Analysis](#campaign-analysis)
 
 ***
 
-## Business Task
-Clique Bait is an online seafood store. 
+## Background
+Clique Bait is not like your regular online seafood store - the founder and CEO Danny, was also a part of a digital data analytics team and wanted to expand his knowledge into the seafood industry!
 
-In this case study - you are required to support the founder and CEO Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
+In this case study - you are required to support Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
+
+#Available Data
+For this case study there is a total of 5 datasets which you will need to combine to solve all of the questions.
 
 ## Entity Relationship Diagram
 
@@ -43,11 +47,11 @@ In this case study - you are required to support the founder and CEO Danny’s v
 
 ***
 
-## Case Study Solution
+## Case Study Question
 
 ### A. Digital Analysis
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/A.%20Digital%20Analysis.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/edit/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Digital%20Analysis.md).
 
 1. How many users are there?
 2. How many cookies does each user have on average?
@@ -63,7 +67,7 @@ View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob
 
 ### B. Product Funnel Analysis
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/B.%20Product%20Funnel%20Analysis.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/C.%20Product%20Funnel%20Analysis.md).
 
 Using a single SQL query - create a new output table which has the following details:
 
@@ -86,7 +90,7 @@ Use your 2 new output tables - answer the following questions:
 
 ### C. Campaigns Analysis
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/C.%20Campaigns%20Analysis.md).
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/D.%20Campaigns%20Analysis.md).
 
 Generate a table that has 1 single row for every unique visit_id record and has the following columns:
 - user_id
