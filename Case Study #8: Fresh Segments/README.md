@@ -3,18 +3,17 @@
 <img src="https://user-images.githubusercontent.com/81607668/138843936-d1741a39-9b87-4d5d-b09c-643600e28c92.png" alt="Image" width="500" height="520">
 
 ## 📚 Table of Contents
-- [Business Task](#business-task)
+- [Background](#background)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
-- Solution
-  - [A. Data Exploration and Cleansing]()
-  - [B. Interest Analysis]()
-  - [C. Segment Analysis]()
-  - [SQL Syntax]()
-
+  - [A. Data Exploration and Cleansing](#a-data-exploration-and-cleansing)
+  - [B. Interest Analysis](#b-interest-analysis)
+  - [C. Segment Analysis](#c-segment-analysis)
+  - [D. Index Analysis](#d-index-analysis)
+  
 ***
 
-## Business Task
+## Background
 
 Fresh Segments is a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
 
@@ -66,7 +65,7 @@ Danny has asked for your assistance to analyse aggregated metrics for an example
 Click here to expand!
 </summary>
 
-View my solution [here]()
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%238:%20Fresh%20Segments/A.%20Data%20Exploration%20and%20Cleansing.md)
 
 1. Update the `fresh_segments.interest_metrics` table by modifying the `month_year` column to be a date data type with the start of the month
 2. What is count of records in the `fresh_segments.interest_metrics` for each `month_year` value sorted in chronological order (earliest to latest) with the `null` values appearing first?
@@ -84,7 +83,7 @@ View my solution [here]()
 Click here to expand!
 </summary>
   
-View my solution [here]().
+View my solution [here](https://github.com/papa28x4/danny-ma-sql-challenge/blob/main/Case%20Study%20%238:%20Fresh%20Segments/B.%20Interest%20Analysis.md).
   
 1. Which interests have been present in all `month_year` dates in our dataset?
 2. Using this same total_months measure - calculate the cumulative percentage of all records starting at 14 months - which total_months value passes the 90% cumulative percentage value?
