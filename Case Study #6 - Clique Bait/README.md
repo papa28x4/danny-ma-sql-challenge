@@ -6,7 +6,7 @@
 - [Background](#background)
 - [Available Data](#available-data)
 - [Case Study Questions](#case-study-questions)
-  - [Entity Relationship Diagram](#a-entity-relationship-diagram) 
+  - [A. Entity Relationship Diagram](#a-entity-relationship-diagram) 
   - [B. Digital Analysis](#digital-analysis)
   - [C. Product Funnel Analysis](#product-funnel-analysis)
   - [D. Campaigns Analysis](#campaigns-analysis)
