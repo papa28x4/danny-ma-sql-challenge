@@ -42,6 +42,7 @@ Data Mart has both, a retail and online platform in the form of a Shopify store 
 Customer segment and customer_type data relates to personal age and demographics information that is shared with Data Mart
 transactions is the count of unique purchases made through Data Mart and sales is the actual dollar amount of purchases
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
+
 10 random rows are shown in the table output below from `data_mart.weekly_sales`.
 
 <img width="649" alt="image" src="https://user-images.githubusercontent.com/81607668/131438417-1e21efa3-9924-490f-9bff-3c28cce41a37.png">
