@@ -7,9 +7,9 @@
 - [Available Data](#available-data)
 - [Case Study Questions](#case-study-questions)
   - [A. Entity Relationship Diagram](#a-entity-relationship-diagram) 
-  - [B. Digital Analysis](#digital-analysis)
-  - [C. Product Funnel Analysis](#product-funnel-analysis)
-  - [D. Campaigns Analysis](#campaigns-analysis)
+  - [B. Digital Analysis](#b-digital-analysis)
+  - [C. Product Funnel Analysis](#c-product-funnel-analysis)
+  - [D. Campaigns Analysis](#d-campaigns-analysis)
 
 ***
 
