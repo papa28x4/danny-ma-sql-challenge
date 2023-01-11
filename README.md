@@ -27,7 +27,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 ![image](https://user-images.githubusercontent.com/81607668/127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8.png)
 
-### Insights and Findings
+
 
 ***
 
@@ -45,7 +45,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 
 ![image](https://user-images.githubusercontent.com/81607668/127271531-0b4da8c7-8b24-4a14-9093-0795c4fa037e.png)
 
-### Insights and Findings
+
   
 ***
 
@@ -64,7 +64,7 @@ This case study focuses on using subscription style digital data to answer impor
 
 ![image](https://user-images.githubusercontent.com/81607668/129744449-37b3229b-80b2-4cce-b8e0-707d7f48dcec.png)
 
-### Insights and Findings
+
 
 ***
 
@@ -87,7 +87,7 @@ This case study is all about calculating metrics, growth and helping the busines
 
 <img width="631" alt="image" src="https://user-images.githubusercontent.com/81607668/130343339-8c9ff915-c88c-4942-9175-9999da78542c.png">
 
-### Insights and Findings
+
 
 ***
 
@@ -109,7 +109,7 @@ The key business question to answer are the following:
 - Which platform, region, segment and customer types were the most impacted by this change?
 - What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
 
-### Entity Relationship Diagram
+
 
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/81607668/131438278-45e6a4e8-7cf5-468a-937b-2c306a792782.png">
 
@@ -124,7 +124,6 @@ Here are some further details about the dataset:
 
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
 
-### Insights and Findings
 
 ***
 
@@ -142,7 +141,6 @@ Clique Bait is an online seafood store. In this case study - you are required to
 
 <img width="825" alt="image" src="https://user-images.githubusercontent.com/81607668/134619326-f560a7b0-23b2-42ba-964b-95b3c8d55c76.png">
 
-### Insights and Findings
 
 ***
 
@@ -166,6 +164,6 @@ Danny has asked for your assistance to analyse aggregated metrics for an example
 
 
 
-### Insights and Findings
+
 
 ***
