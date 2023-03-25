@@ -150,17 +150,13 @@ Clique Bait is an online seafood store. In this case study - you are required to
 <img src="https://i.ibb.co/MkdXRK5/7.png" alt="Image" width="500" height="520">
 
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-8/) and my **solution** [here](https://github.com/papa28x4/danny-ma-sql-challenge/tree/main/Case%20Study%20%238:%20Fresh%20Segments).
+View the case study [here](https://8weeksqlchallenge.com/case-study-7/) and my **solution** [here](https://github.com/papa28x4/danny-ma-sql-challenge/tree/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co.).
 
 ### Business Task
 
-Fresh Segments is a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
+Balanced Tree Clothing Company prides themselves on providing an optimised range of clothing and lifestyle wear for the modern adventurer!
 
-Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
-
-In particular - the composition and rankings for different interests are provided for each client showing the proportion of their customer list who interacted with online assets related to each interest for each month.
-
-Danny has asked for your assistance to analyse aggregated metrics for an example client and provide some high level insights about the customer list and their interests.
+Danny, the CEO of this trendy fashion company has asked you to assist the team’s merchandising teams analyse their sales performance and generate a basic financial report to share with the wider business.
 
 
 ***
