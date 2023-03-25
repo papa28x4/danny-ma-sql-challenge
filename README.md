@@ -11,6 +11,7 @@ Thanks @DataWithDanny for the excellent SQL case studies! 👋🏻
 - [Case Study #4: Data Bank](#case-study-4-data-bank)
 - [Case Study #5: Data Mart](#case-study-5-data-mart)
 - [Case Study #6: Clique Bait](#case-study-6-clique-bait)
+- [Case Study #7: Balanced Tree Clothing Co.](#case-study-7-balanced-tree-clothing-co)
 - [Case Study #8: Fresh Segments](#case-study-8-fresh-segments)
 
 ***
@@ -140,6 +141,26 @@ Clique Bait is an online seafood store. In this case study - you are required to
 ### Entity Relationship Diagram
 
 <img width="825" alt="image" src="https://user-images.githubusercontent.com/81607668/134619326-f560a7b0-23b2-42ba-964b-95b3c8d55c76.png">
+
+***
+
+## Case Study #7: Balanced Tree Clothing Co.
+
+<!-- <img src="https://user-images.githubusercontent.com/81607668/138843936-d1741a39-9b87-4d5d-b09c-643600e28c92.png" alt="Image" width="500" height="520"> -->
+<img src="https://i.ibb.co/MkdXRK5/7.png" alt="Image" width="500" height="520">
+
+
+View the case study [here](https://8weeksqlchallenge.com/case-study-8/) and my **solution** [here](https://github.com/papa28x4/danny-ma-sql-challenge/tree/main/Case%20Study%20%238:%20Fresh%20Segments).
+
+### Business Task
+
+Fresh Segments is a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
+
+Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
+
+In particular - the composition and rankings for different interests are provided for each client showing the proportion of their customer list who interacted with online assets related to each interest for each month.
+
+Danny has asked for your assistance to analyse aggregated metrics for an example client and provide some high level insights about the customer list and their interests.
 
 
 ***
