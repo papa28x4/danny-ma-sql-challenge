@@ -247,10 +247,10 @@
 | ---------- | ------------ | --------- |
 | 1          | Bacon        | 12        |
 | 6          | Mushrooms    | 11        |
-| 5          | Cheese       | 10        |
+| 4          | Cheese       | 10        |
 | 8          | Pepperoni    | 9         |
 | 10         | Salami       | 9         |
-| 4          | Chicken      | 9         |
+| 5          | Chicken      | 9         |
 | 3          | Beef         | 9         |
 | 2          | BBQ Sauce    | 8         |
 | 12         | Tomato Sauce | 3         |
